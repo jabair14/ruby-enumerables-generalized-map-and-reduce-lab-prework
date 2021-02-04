@@ -9,7 +9,7 @@ end
 end
  #source_array.map{|n| n * -1}
 
-def reduce(source_array, starting_point = 0)
+def reduce(source_array, starting_point)
   new_value = ""
   source_array.each do |source_array|
     new_value << yield(source_array,starting_point)
