@@ -12,7 +12,7 @@ end
 def reduce(source_array, starting_point = 0)
   new_value = ""
   source_array.each do |source_array|
-    new_value << yield(source_array)
+    new_value << yield(source_array,starting_point)
   end
   new_value
 end
