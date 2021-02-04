@@ -9,7 +9,8 @@ end
 end
  #source_array.map{|n| n * -1}
 
-def reduce(source_array, starting_point)
+def reduce(source_array, starting_point = 0)
+  if starting_point 
   new_value = ""
   index = 0 
    while index < source_array.length 
