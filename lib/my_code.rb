@@ -11,7 +11,7 @@ end
 
 def reduce(source_array, starting_point = 0)
   new_value = ""
-  index = 0
+  source_array.each do 
   while index < source_array.length
   new_value.push(yield(source_array[index, starting_point]))
                 # ^General yield here, as this lab needs a generalized method to solve all 6 questions at once.  
