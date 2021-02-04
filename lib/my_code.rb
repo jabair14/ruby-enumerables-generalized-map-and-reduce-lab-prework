@@ -11,8 +11,10 @@ end
 
 def reduce(source_array, starting_point = 0)
   new_value = ""
-  source_array.each do |source_array, n|
-    new_value << yield(source_array)
+  index = 0 
+   while index < source_array.length 
+    new_value << yield(source_array[index])
+    index += 1 
   end
   new_value
 end
