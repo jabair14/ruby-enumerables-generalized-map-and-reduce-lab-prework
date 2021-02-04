@@ -10,7 +10,7 @@ end
  #source_array.map{|n| n * -1}
 
 def reduce(source_array, starting_point = 0)
-  new_value = #needs to equal something
+  #new_value = #needs to equal something
   index = 0
   while index < source_array.length
   new_value.push(yield(source_array[index, starting_point]))
