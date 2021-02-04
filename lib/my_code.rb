@@ -11,7 +11,7 @@ end
 
 def reduce(source_array, starting_point = nil)
   if starting_point  
-  new_value = ""
+  new_value = starting_point
   index = 0 
    while index < source_array.length 
     new_value << yield(source_array[index])
