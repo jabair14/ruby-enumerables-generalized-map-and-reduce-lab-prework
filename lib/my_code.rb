@@ -21,7 +21,7 @@ def reduce(source_array, starting_point = 0)
   #index += 1 
 #end
   #puts new_value
-end
+#end
 
 
   
